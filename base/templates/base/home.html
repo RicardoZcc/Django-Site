@@ -1,0 +1,95 @@
+{% extends "pattern.html" %}
+{% load static %}
+{% block page_content %}
+
+<link rel="stylesheet" type="text/css" href=" {% static 'css/gridarea_v5.css' %} ">
+<link rel="stylesheet" type="text/css" href=" {% static 'css/gridstuff_v5.css' %} ">
+
+<body>
+
+	<section class='grid'>
+		
+		<div class='card item1' id="profile-wrapper">
+
+			<img  src="{% static  'images/Ricardo2.jpg' %}" id="profile-pic">
+					<hr>
+					<h4>Ricardo Z. C. Correa</h4>
+					<p>Formado em Segurança da Informação e Direito</p>
+
+		</div>
+
+		<div class=' card item2'>
+			<h4>Minha experiência como estagiário no MPSP</h4>
+					<hr>
+					<p >Estagiei por quase 2 anos no MPSP, realizando tarefas como arquivamentos e remessas de Notícias de Fato, montagem de peças processuais que geralmente estavam relacionadas a área criminal, controle da movimentação dos autos de processos administrativos ou judiciais, acompanhando a realização dos correspondentes atos e termos processuais e também acompanhei os promotores em diligências policiais, elaborando o relatório durante a diligência.</p>
+
+					<p >Durante esse período acabei me tornando mais organizado, afinal, estava em um ambiente em que tinha de acompanhar o andamento de diversos processos, além de ter de fazer relatórios com sugestões de medidas a serem tomadas, naqueles processos, aos Promotores de Justiça.</p>
+					<ul class="social-links">
+						<a href="https://github.com/RicardoZcc"><li><img class="social" src="{% static 'images/GitHub.png' %}"></li></a>
+						<a href="https://linkedin.com/in/ricardo-zamarrenho-carvalho-correa-2223a2154"><li><img class="social" src="{% static 'images/linkedin.png' %}"></li></a>
+						<a href="https://www.instagram.com/ricardo_zcc/"><li><img class="social" src="{% static 'images/instagram.png' %}"></li></a>
+					</ul>
+
+		</div>
+
+		<div class='card item3'>
+			<h5>Minha experiência no Projeto Destino Social</h5>
+					<hr>
+					<p >O Projeto Destino Social é uma atividade filantrópica que visa a reutilização de dispositivos provenientes de descarte eletrônico e apreensões policias, para a construção e doação de sistemas computacionais, é um serviço que propaga a tecnologia às comunidades carentes. Montagem e reciclagem de máquinas.</p>
+					<p >Durante minha participação nesta iniciativa, contribui com a montagem e manutenção de computadores, tanto Linux quanto Windows, fliperamas de pinball e arcade, ambos com utilização de Linux, com a configuração de um cluster e criação de scripts (Shell Script), para os fliperamas e manutenção de computadores.</p>
+
+		</div>
+
+		<div class='card item4'>
+			<h5>Conhecimentos tecnológicos:</h5>
+					<hr>
+					<p  >Python, Django, HTML/CSS, Bootstrap, C, PHP, SQL, Shell script, Linux, Conhecimentos em ITIL e COBIT, análise de riscos, plano de continuidade de negócios, Compreensão da ISO 27001,27002 e LGPD, Gerenciamento de servidores Linux e Windows (AD DS), Redes TCP/IP e protocolos de roteamento;</p>
+					<hr>
+					<h5><p >Idiomas: </p></h5>
+					<p >Inglês (fluente) <br> Espanhol (intermediário)</p>
+
+		</div>
+
+		<div class='card item5'>
+			<h5>Conhecimentos jurídicos:</h5>
+					<hr>
+					
+					<p >Conhecimentos em Direito Penal, Civil, Consumidor, Societário, Administrativo e Digital. </p>
+					<p >Elaboração de Contratos, petições iniciais, recursos e outras petições simples, controle e acompanhamento de processos, produção de relaórios de processos e diligências, pesquisa doutrinária e jurisprudencial, compreensão da LGPD, conhecimentos em Gestão e Governança empresarial.</p>
+
+		</div>
+
+		<div class='card item6'>
+			<h5>Meus objetivos profissionais</h5>
+				<hr>
+				<p >Pretendo consolidar meus conhecimentos em redes de computadores e em desenvolvimento Web, através dos meus projetos pessoais e trabalhando nessas áreas, assim como pretendo consolidar meus conhecimentos em Direito Digital e Compliance, especificamente em relação a LGPD.</p>
+				<p >Além de dar andamento em meus projetos, abaixo ilustrados, eu adoraria entrar em uma posição em que possa ser parte de uma equipe e aprender com outras pessoas que possuem mais experiência que eu.</p>
+
+		</div>
+
+		<div id="projetos" class="item7">
+			<h4>Projetos</h4>
+			<hr>
+			<div class="rowflex" >
+			{% for projeto in projetos %}
+				<section class="procard ">
+					<img src="{% static projeto.image.url %}" class="proimg">
+				
+				<h5>{{ projeto.nome }}</h5>
+				<p>{{projeto.tópico }}</p>
+				<hr>
+				<p>
+					<a href="{% url 'projetopage' projeto.pk %}"
+                   					class="btn btn-primary">
+                            		Leia Mais </a>
+				</p>
+			</section>
+				{% endfor %}
+			</section>
+			</div>
+	</div>
+
+
+
+	
+{% endblock %}

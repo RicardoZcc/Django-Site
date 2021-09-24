@@ -1,0 +1,51 @@
+{% extends "pattern.html" %}
+
+{% load static %}
+
+
+
+{% block page_content %}
+<head>
+    <link rel="stylesheet" type="text/css" href=" {% static 'css/main.css' %} ">
+</head>
+
+
+<div class="container">
+
+<h1 >Henry James</h1>
+<div  class="row">
+    <div class=" card col-md-8 text-justify">
+        <br>
+        <h5>Sobre o autor:</h5>
+        <hr>
+        <p>Em progresso...</p>
+        
+    </div>
+    <div class="col-md-4" id="profile-wrapper">
+		<img class="rounded "  style="width: 100%" id="autor-pic" src="{% static 'images/henryjames.png' %}">    	
+    </div>
+</div>
+</div>
+
+
+
+<div class="container">
+	<div class="row">
+		<dir class="card col-md-8">
+			<h5>Livros:</h5>
+			<hr>
+			<p>A Esquina Jovial (The Jolly Corner): em progresso</p>
+			
+		</dir>
+		<div class="col-md-4">
+			<br>
+			 <h5>Arquivos relevantes:</h5>
+        	<a href="https://mega.nz/file/BsBAmZiT#HLI5FZ8qZ9fwthVhXEDChgt7aMbKeVTbtKhpWUkgC8g"><p>A Esquina Jovial: Amostra da tradução</p></a>
+    	</div>
+	</div> 
+
+
+
+</div>
+
+{% endblock %}

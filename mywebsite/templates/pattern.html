@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+
+	<title>Ricardo Z. C. Correa</title>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+{% load static %}
+<link rel="stylesheet" type="text/css" href=" {% static 'css/template.css' %} ">
+</head>
+
+<header>
+
+<!--NavBar-->
+<nav class="navbar navbar-dark navbar-expand-md" >
+  <!-- Brand -->
+  <a class="navbar-brand" href="#">
+    <img src="{% static  'images/Djangobw.png' %}" width="120" height="45" class="d-incline-block align-top" alt="">
+  </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Links -->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item active">
+      <a class="nav-link" href="{% url 'hello_world' %}">Home</a>
+    </li>
+
+    <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link active dropdown-toggle" href="#" id="navbardropdown"role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Projetos
+      </a>
+      <div class="dropdown-menu ">
+        <a class="dropdown-item" href="{% url 'projetopage' 1 %}">Django Website</a>
+        <a class="dropdown-item" href="{% url 'blog_index' %}">Blog de Artigos</a>
+      </div>
+    </li>
+  </ul>
+</div>
+</nav>
+<br>
+
+
+	{% block page_content %}{% endblock %}
+</header>
+
+<footer>
+	
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</footer>
+
+</html>

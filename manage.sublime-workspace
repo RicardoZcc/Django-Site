@@ -1,0 +1,485 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pro",
+				"projetos"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"padd",
+				"padding\tproperty"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"flex",
+				"flex\tproperty"
+			],
+			[
+				"space",
+				"space-between\tjustify-content"
+			],
+			[
+				"wra",
+				"flex-wrap\tproperty"
+			],
+			[
+				"paddin",
+				"padding-right\tproperty"
+			],
+			[
+				"pa",
+				"padding-left\tproperty"
+			],
+			[
+				"conten",
+				"justify-content\tproperty"
+			],
+			[
+				"conte",
+				"align-content\tproperty"
+			],
+			[
+				"alig",
+				"align-content\tproperty"
+			],
+			[
+				"mar",
+				"margin\tproperty"
+			],
+			[
+				"ali",
+				"align-content\tproperty"
+			],
+			[
+				"card",
+				"card-wide"
+			],
+			[
+				"ba",
+				"background-color\tproperty"
+			],
+			[
+				"grid",
+				"grid-template-columns\tproperty"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"h",
+				"header\tTag"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"he",
+				"max-height\tproperty"
+			],
+			[
+				"projeto",
+				"projeto"
+			],
+			[
+				"border-r",
+				"border-radius\tproperty"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"w",
+				"width\tproperty"
+			],
+			[
+				"col",
+				"col-md-4"
+			],
+			[
+				"c",
+				"col-md-4"
+			],
+			[
+				"r",
+				"row"
+			],
+			[
+				"henr",
+				"henryjames"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"co",
+				"cover\tobject-fit"
+			],
+			[
+				"ob",
+				"object-fit\tproperty"
+			],
+			[
+				"B",
+				"BASE_DIR"
+			],
+			[
+				"blog",
+				"blog_index"
+			],
+			[
+				"Comen",
+				"ComentarioForm"
+			],
+			[
+				"fo",
+				"form"
+			],
+			[
+				"coment",
+				"Comentario"
+			],
+			[
+				"Come",
+				"ComentarioForm"
+			],
+			[
+				"blo",
+				"blog_detail"
+			],
+			[
+				"pos",
+				"post"
+			],
+			[
+				"b",
+				"body"
+			],
+			[
+				"projet",
+				"projeto"
+			],
+			[
+				"p",
+				"Projeto"
+			],
+			[
+				"m",
+				"mywebsite"
+			],
+			[
+				"li",
+				"li\tTag"
+			],
+			[
+				"d",
+				"div\tTag"
+			],
+			[
+				"D",
+				"Documents"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "base/views.py",
+			"settings":
+			{
+				"buffer_size": 1563,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "mywebsite/templates/pattern.html",
+			"settings":
+			{
+				"buffer_size": 2514,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Juan/Documents/Django/mywebsite",
+		"/C/Users/Juan/Documents/Django/mywebsite/mywebsite",
+		"/C/Users/Juan/Documents/Django/mywebsite/mywebsite/templates"
+	],
+	"file_history":
+	[
+		"/C/Users/Juan/Documents/Django/mywebsite/base/templates/base/home.html",
+		"/C/Users/Juan/Documents/Django/mywebsite/base/templates/base/blog_detail.html",
+		"/C/Users/Juan/Documents/Django/mywebsite/base/templates/base/projetopagel.html",
+		"/C/Users/Juan/Documents/Django/mywebsite/base/templates/base/blog_index.html",
+		"/C/Users/Juan/Documents/Django/mywebsite/mywebsite/templates/pattern.html",
+		"/C/Users/Juan/Documents/Django/mywebsite/staticfiles/css/gridstuff_v5.css",
+		"/C/Users/Juan/Documents/Django/mywebsite/staticfiles/css/gridarea_v5.css",
+		"/C/Users/Juan/Documents/Django/mywebsite/staticfiles/css/gridstuff.css",
+		"/C/Users/Juan/Documents/Django/mywebsite/base/templates/base/home-a.html",
+		"/C/Users/Juan/Documents/Django/mywebsite/staticfiles/css/gridresposnsive.css",
+		"/C/Users/Juan/Documents/Django/mywebsite/staticfiles/css/grid.css",
+		"/C/Users/Juan/Documents/Django/mywebsite/staticfiles/css/grid",
+		"/C/Users/Juan/Documents/Django/mywebsite/base/templates/base/projetopage.html",
+		"/C/Users/Juan/Documents/Django/mywebsite/staticfiles/css/main.css",
+		"/C/Users/Juan/Documents/Django/mywebsite/staticfiles/css/template.css",
+		"/C/Users/Juan/Documents/Django/mywebsite/mywebsite/settings.py",
+		"/C/Users/Juan/Documents/Django/mywebsite/runtime.txt",
+		"/C/Users/Juan/Documents/Django/mywebsite/Procfile",
+		"/C/Users/Juan/Documents/Django/mywebsite/requirements.txt",
+		"/C/Users/Juan/Documents/Django/mywebsite/base/models.py",
+		"/C/Users/Juan/Documents/Django/mywebsite/base/templates/base/henryjames.html",
+		"/C/Users/Juan/Documents/Django/mywebsite/base/urls.py",
+		"/C/Users/Juan/Documents/Django/mywebsite/base/views.py",
+		"/C/Users/Juan/Documents/Django/mywebsite/mywebsite/urls.py",
+		"/C/Users/Juan/Documents/Django/mywebsite/base/templates/base/blog_categoria.html",
+		"/C/Users/Juan/Documents/Django/mywebsite/base/forms.py",
+		"/C/Users/Juan/Documents/Django/mywebsite/base/admin.py",
+		"/C/Users/Juan/Documents/Django/mywebsite/mywebsite/templates/pattern",
+		"/C/Users/Juan/Documents/Django/mywebsite/base/templates/home.html"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"diligências",
+			"wide",
+			"]",
+			"container"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "base/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1563,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								417,
+								417
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "mywebsite/templates/pattern.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2514,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								270,
+								270
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.80060292851,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "manage.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 316.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

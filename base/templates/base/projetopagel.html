@@ -1,0 +1,26 @@
+{% extends "pattern.html" %}
+
+{% load static %}
+
+
+
+{% block page_content %}
+<head>
+    <link rel="stylesheet" type="text/css" href=" {% static 'css/main.css' %} ">
+</head>
+
+<div class="container">
+
+<h1>{{ projeto.titulo }}</h1>
+<div  class="row">
+    <div class=" card col-md-10 text-justify">
+        <br>
+        <h5>Sobre o projeto:</h5>
+        <hr>
+        <p>{{ projeto.body | linebreaks}}</p>
+        <br>
+        </a><h5>Acesse o blog:</h5>
+       <a href="{% url 'blog_index' %}"> Blog de artigos</a>
+    </div>
+</div>
+{% endblock %}

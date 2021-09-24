@@ -1,0 +1,56 @@
+{% extends "pattern.html" %}
+{% load static %}
+
+
+{% block page_content %}
+
+<head>
+    <link rel="stylesheet" type="text/css" href=" {% static 'css/main.css' %} ">
+</head>
+
+<div class="card col-md-8 offset-md-2 text-justify" >
+    <div>
+    <h1>{{ post.titulo }}</h1>
+    <small>
+        {{ post.criado_em.date }} |&nbsp;
+        Categoria:&nbsp;
+        {% for categoria in post.categorias.all %}
+        <a href="{% url 'blog_categoria' categoria.nome %}">
+            {{ categoria.nome }}
+        </a>&nbsp;
+        {% endfor %}
+    </small>
+    <p>{{ post.body | linebreaks }}</p>
+    <hr>
+    </div>
+
+    <div>
+    <h3>Deixe um comentário:</h3>
+    <form action="/blog/post/{{ post.pk }}/" method="post">
+        {% csrf_token %}
+        <div class="form-group">
+            {{ form.autor }}
+        </div>
+        <div class="form-group" size="50">
+            {{ form.body }}
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+
+<br>
+    <div>
+    <h3>Comentários:</h3>
+    <br>
+    {% for comentario in comentarios %}
+    <p>
+        Em {{comentario.criado_em.date }}&nbsp;
+        <b>{{ comentario.autor }}</b> escreveu:
+    </p>
+    <p>{{ comentario.body }}</p>
+    <hr>
+    {% endfor %}
+    </div>
+</div>
+
+{% endblock %}

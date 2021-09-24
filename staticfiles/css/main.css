@@ -1,0 +1,75 @@
+body{
+--tw-bg-opacity: 0.5;
+background-color: rgba(209, 250, 229, var(--tw-bg-opacity));
+}
+
+#profile-wrapper{
+	text-align: center;
+}
+
+
+#profile-pic{
+  border-radius: 50%;
+  max-width: 100%;
+  max-height: 180px;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#autor-pic{
+	width:100%;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+.responsive {
+  max-width: 100%;
+  height: 200px;
+}
+
+ul{
+	padding: 0;
+    list-style-type: none;
+}
+
+a{
+	color: #00008b;
+}
+
+.social-links ul, li{
+	list-style-type:none;
+	display: inline-block;
+}
+
+.social{
+	width:20px;
+	height: 20px;
+}
+
+   .projetoimg{
+  max-width: 100%;
+  ¨max-height: 100%;
+}
+
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+
+@media (min-width: 360px) { body {font-size:1.1rem;} } 
+@media (min-width: 640px) { body {font-size:1.2rem;} } 
+@media (min-width:1000px) { body {font-size:1.3rem;} } 
+@media (min-width:1100px) { body {font-size:1rem;} } 
+
+html { font-size:100%; }

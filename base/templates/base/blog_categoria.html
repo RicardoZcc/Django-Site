@@ -1,0 +1,26 @@
+{%extends "pattern.html" %}
+{% load static %}
+
+{% block page_content %}
+<head>
+    <link rel="stylesheet" type="text/css" href=" {% static 'css/main.css' %} ">
+</head>
+
+<div class="col-md-8 offset-md-2">
+    <h1>{{ categoria | title }}</h1>
+    <hr>
+    {% for post in posts %}
+    <h2><a href="{% url 'blog_detail' post.pk%}">{{ post.titulo }}</a></h2>
+        <small>
+            {{ post.criado_em.date }} |&nbsp;
+            Categorias:&nbsp;
+            {% for categoria in post.categorias.all %}
+            <a href="{% url 'blog_categoria' categoria.nome %}">
+                {{ categoria.nome }}
+            </a>&nbsp;
+            {% endfor %}
+        </small>
+        <p>{{ post.body | slice:":400" }}...</p>
+    {% endfor %}
+</div>
+{% endblock %}
